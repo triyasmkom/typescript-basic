@@ -1,0 +1,17 @@
+{
+  "name": "tutorial-type-script",
+  "version": "1.0.0",
+  "description": "1. Cek versi node js  ```command $ node -v v16.18.1 ``` 2. Cek versi package manager nya ```command $ npm -v 8.19.2 ``` 3. Inisialisasi project",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "rm -rf build/ && tsc",
+    "ts": "rm -rf build/ && tsc -w",
+    "dev": "nodemon ./build/module/Product.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.5"
+  }
+}
